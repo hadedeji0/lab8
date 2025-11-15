@@ -1,0 +1,27 @@
+$h1text : red;
+$inputPrimaryBg: #d8f5c0;
+$inputPrimaryBorder: #c3e6cb;
+$inputPrimaryText: #000000;
+$inputPrimaryPlaceholder: #495057;
+$inputPrimaryFocusBorder: #8fd19e;
+ 
+h1 {
+     color: $h1text;
+}
+
+.input-primary-soft {
+  background-color: $inputPrimaryBg;
+  border-color: $inputPrimaryBorder;
+  color: $inputPrimaryText;
+
+  &::placeholder {
+    color: $inputPrimaryPlaceholder;
+    opacity: 1;
+  }
+
+  &:focus {
+    background-color: $inputPrimaryBg;
+    border-color: $inputPrimaryFocusBorder;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  }
+}

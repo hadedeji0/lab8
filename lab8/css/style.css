@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+.input-primary-soft {
+  background-color: #d8f5c0;
+  border-color: #c3e6cb;
+  color: #000000;
+}
+.input-primary-soft::placeholder {
+  color: #495057;
+  opacity: 1;
+}
+.input-primary-soft:focus {
+  background-color: #d8f5c0;
+  border-color: #8fd19e;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
